@@ -76,8 +76,15 @@ body{
     color: transparent;
     z-index: 2;
 }
+.banner .content h1 span{
+    color: white;
+}
 .banner .content h1:hover{
     color: white;
+}
+.banner .content h1:hover span{
+    -webkit-text-stroke: 2px white;
+    color: transparent;
 }
 
 .banner .content .modal{
@@ -93,6 +100,6 @@ body{
     z-index: 1;
     transition: all 1s ease;
 }
-.banner .content h1:hover .modal{
-    transform: scale(1.1);
+.banner .content:hover .modal{
+    transform: scale(1.10);
 }
