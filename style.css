@@ -93,6 +93,6 @@ body{
     z-index: 1;
     transition: all 1s ease;
 }
-.banner .content:hover .modal{
-    transform: scale(1.10);
+.banner .content h1:hover .modal{
+    transform: scale(1.1);
 }
